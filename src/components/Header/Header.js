@@ -9,6 +9,7 @@ const Header = () => {
     // };
     const normalStyle = {
         marginRight: "10px",
+        padding: '10px',
         textDecoration: "none",
         color: 'white',
         pointer: 'cursor',

@@ -1,0 +1,14 @@
+.home-page1{
+    background-color:#d9dfffa3 ;
+}
+.slider {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    overflow-x: auto;
+  }
+  .slide {
+    width: 300px;
+    flex-shrink: 0;
+    height: 100%;
+  }
