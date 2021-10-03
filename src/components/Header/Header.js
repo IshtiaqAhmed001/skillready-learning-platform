@@ -14,12 +14,19 @@ const Header = () => {
         pointer: 'cursor',
         fontWeight: "600",
         fontSize: "1.2rem"
+    };
+    const logoStyle = {
+        textDecoration: 'none',
+        color: 'white',
+        pointer: 'cursor'
+
     }
     return (
         <div className="header ">
             <div className="d-flex justify-content-between container">
                 <div>
-                    <h3 className="fw-bold">SkillReady</h3>
+                    <NavLink style={logoStyle} to='/home'><h3 className="fw-bold">SkillReady</h3></NavLink>
+
                 </div>
                 <div>
                     <NavLink style={normalStyle} to='/home'>Home</NavLink>

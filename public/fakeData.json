@@ -1,0 +1,72 @@
+[
+    {
+        "id": 1,
+        "name": "Fundamentals of Digital Marketing",
+        "duration": "8 hours",
+        "rating": 4.5,
+        "price": "free"
+    },
+    {
+        "id": 2,
+        "name": "UI/UX Designing for Beginners",
+        "duration": "32 hours",
+        "rating": 4.4,
+        "price": "1500 BDT"
+    },
+    {
+        "id": 3,
+        "name": "MS Office Professional",
+        "duration": "20 hours",
+        "rating": 4.6,
+        "price": "1200 BDT"
+    },
+    {
+        "id": 4,
+        "name": "Master Adobe Photoshop CS6",
+        "duration": "120 hours",
+        "rating": 4.7,
+        "price": "2000 BDT"
+    },
+    {
+        "id": 5,
+        "name": "Full Stack Web-Development",
+        "duration": "450 hours",
+        "rating": 4.9,
+        "price": "4000 BDT"
+    },
+    {
+        "id": 6,
+        "name": "Business and Management",
+        "duration": "4 hours",
+        "rating": 4.3,
+        "price": "1000 BDT"
+    },
+    {
+        "id": 7,
+        "name": "Advanced SEO: Tactics and Strategy",
+        "duration": "10 hours",
+        "rating": 4.6,
+        "price": "1600 BDT"
+    },
+    {
+        "id": 8,
+        "name": "Learn Adobe Illustrator From Scratch,",
+        "duration": "15 hours",
+        "rating": 4.8,
+        "price": "2500 BDT"
+    },
+    {
+        "id": 9,
+        "name": "Introduction to Public Speaking",
+        "duration": "35 hours",
+        "rating": 4.7,
+        "price": "1200 BDT"
+    },
+    {
+        "id": 10,
+        "name": "Basic French Language Skills for Everyday Life",
+        "duration": "7 hours",
+        "rating": 4.4,
+        "price": "1400 BDT"
+    }
+]
