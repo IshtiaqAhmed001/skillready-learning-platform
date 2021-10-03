@@ -1,8 +1,16 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import './Home.css'
 import bannerImg from '../../images/topbanner2.png'
 import { Carousel } from 'react-bootstrap';
 const Home = () => {
+    const [courses, setCourses] = useState([]);
+    useEffect(() => {
+        fetch('./fakeData.json')
+            .then(res => res.json())
+            .then(data => setCourses(data));
+    }, []);
+    // taking three course for displaying on homepage 
+    const featuredCourses = courses.slice(0, 3);
     return (
         <div>
             <div className="home-page1  d-flex justify-content-around">
@@ -20,7 +28,9 @@ const Home = () => {
             </div >
             <div className="home-page2">
                 <h2>Courses We Offer</h2>
-
+                {
+                    featuredCourses.map(course => <h2>{course.name}</h2>)
+                }
             </div>
         </div>
     );
