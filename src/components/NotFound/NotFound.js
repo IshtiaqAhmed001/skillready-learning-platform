@@ -1,10 +1,22 @@
 import React from 'react';
+import './NotFound.css'
+import image from '../../images/404notfound.jpg'
+import Button from 'react-bootstrap/Button';
+import { Link, useHistory } from 'react-router-dom';
 
 const NotFound = () => {
+    // const handleBacktoHome = () => {
+    //     const history = useHistory();
+    //     history.push('/home');
+    // }
     return (
-        <div>
-            <h1>404</h1>
-            <h6>Not Found</h6>
+        <div className="notFound">
+            <div className="imageContainer mt-5">
+                <img src={image} alt="" />
+                <br />
+                <Link to='/home'> <Button variant="dark">Go back to Home</Button>{' '}</Link>
+
+            </div>
         </div>
     );
 };
