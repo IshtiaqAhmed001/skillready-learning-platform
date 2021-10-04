@@ -39,7 +39,13 @@ const Footer = () => {
                     </div>
 
                     <div className="mt-4">
-                        <h2>Company</h2>
+                        <h2>Community</h2>
+                        <ul>
+                            <li >Developers</li>
+                            <li>Testers</li>
+                            <li>Learners</li>
+                            <li>Partners</li>
+                        </ul>
                     </div>
                 </div>
                 <p>© 2021 SkillReady Inc. All rights reserved.</p>
