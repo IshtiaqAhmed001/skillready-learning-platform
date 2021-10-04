@@ -15,7 +15,8 @@ To build this projet we used react library. we also implemented react router her
 
 
 
-### `npm test`
+### Live site link:
+https://skillready-ishtiaq001.netlify.app/
 
 
 
