@@ -1,72 +1,92 @@
 [
     {
+        "img": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://s3.amazonaws.com/coursera-course-photos/6c/24ba6372254a84a1c77baf2dab3f74/Project-2-Logo-2.png?auto=format%2Ccompress&dpr=1&w=150&h=150&q=25&fit=fill&bg=FFF",
         "id": 1,
         "name": "Fundamentals of Digital Marketing",
         "duration": "8 hours",
         "rating": 4.5,
-        "price": "free"
+        "price": "free",
+        "description": "Drive Customer Behavior Online. A six-course overview of the latest digital marketing skills, taught by industry experts."
     },
     {
+        "img": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://d15cw65ipctsrr.cloudfront.net/e2/c3dfb0ce6011e89a7a4913dc94a745/ux_micromasters_1x1.png?auto=format%2Ccompress&dpr=1&w=150&h=150&q=25&fit=fill&bg=FFF",
         "id": 2,
         "name": "UI/UX Designing for Beginners",
         "duration": "32 hours",
         "rating": 4.4,
-        "price": "1500 BDT"
+        "price": "1500 BDT",
+        "description": "This is your path to a career in UX design. In this program, you’ll learn in-demand skills that will have you job-ready in less than 6 months. No degree or experience required."
     },
     {
+        "img": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://d15cw65ipctsrr.cloudfront.net/fb/d0e5d44dfe4d09a948047a6d6b34a3/apple-1850613__480.jpg?auto=format%2Ccompress&dpr=1&w=150&h=150&fit=fill&bg=FFF&q=25",
         "id": 3,
         "name": "MS Office Professional",
         "duration": "20 hours",
         "rating": 4.6,
-        "price": "1200 BDT"
+        "price": "1200 BDT",
+        "description": "Learn basic to advanced Microsoft Office skills in this 8-course bundle for Office 365 or Office 2019"
     },
     {
+        "img": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://s3.amazonaws.com/coursera-course-photos/2b/1aa48070b411e7995f99ba12729574/___-_____-new.jpg?auto=format%2Ccompress&dpr=1&w=150&h=150&fit=fill&bg=FFF&q=25",
         "id": 4,
         "name": "Master Adobe Photoshop CS6",
         "duration": "120 hours",
         "rating": 4.7,
-        "price": "2000 BDT"
+        "price": "2000 BDT",
+        "description": "Master the World's Best Imaging and Design Application and Become an Adobe Certified Associate."
     },
     {
+        "img": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://d15cw65ipctsrr.cloudfront.net/eb/cab7f07dd411e8991ff71ead974a6c/Slide1.png?auto=format%2Ccompress&dpr=1&w=150&h=150&fit=fill&bg=FFF&q=25",
         "id": 5,
         "name": "Full Stack Web-Development",
         "duration": "450 hours",
         "rating": 4.9,
-        "price": "4000 BDT"
+        "price": "4000 BDT",
+        "description": "Become a full-stack web developer with just one course. HTML, CSS, Javascript, Node, React, MongoDB and more!"
     },
     {
+        "img": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://d15cw65ipctsrr.cloudfront.net/d7/8fffd0be5e11e5a0757f0b45fcae50/business-photo-resized-3.jpg?auto=format%2Ccompress&dpr=1&w=150&h=150&fit=fill&bg=FFF&q=25",
         "id": 6,
         "name": "Business and Management",
         "duration": "4 hours",
         "rating": 4.3,
-        "price": "1000 BDT"
+        "price": "1000 BDT",
+        "description": "Solve Real Business Problems. Build a foundation of core business skills in marketing, finance, accounting and operations."
     },
     {
+        "img": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://s3.amazonaws.com/coursera-course-photos/cb/7ce861ed3847b381f8b6992e75cd43/LogoSquare.png?auto=format%2Ccompress&dpr=1&w=150&h=150&q=25&fit=fill&bg=FFF",
         "id": 7,
         "name": "Advanced SEO: Tactics and Strategy",
         "duration": "10 hours",
         "rating": 4.6,
-        "price": "1600 BDT"
+        "price": "1600 BDT",
+        "description": "Become an SEO Expert. Master search engine optimization tools and strategies"
     },
     {
+        "img": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://s3.amazonaws.com/coursera-course-photos/d8/68968e9d42423c9c4249d4b4ecdc31/Ava-kursa-new.jpg?auto=format%2Ccompress&dpr=1&w=150&h=150&fit=fill&bg=FFF&q=25",
         "id": 8,
         "name": "Learn Adobe Illustrator From Scratch,",
         "duration": "15 hours",
         "rating": 4.8,
-        "price": "2500 BDT"
+        "price": "2500 BDT",
+        "description": "Learn Adobe Illustrator CC graphic design, logo design, and more with this in-depth, practical, easy-to-follow course!"
     },
     {
+        "img": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://d15cw65ipctsrr.cloudfront.net/dd/fc221997ca4225a42cd6a6bb7175ee/GWW2_Thumb.jpg?auto=format%2Ccompress&dpr=1&w=150&h=150&fit=fill&bg=FFF&q=25",
         "id": 9,
         "name": "Introduction to Public Speaking",
         "duration": "35 hours",
         "rating": 4.7,
-        "price": "1200 BDT"
+        "price": "1200 BDT",
+        "description": "Become an Excellent Public Speaker. Master techniques for designing and delivering clear and compelling presentations."
     },
     {
+        "img": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://s3.amazonaws.com/coursera-course-photos/50/305a607e6d11e6accaa30f6551cf48/logo-MOOC-FLE-V4.jpg?auto=format%2Ccompress&dpr=1&w=150&h=150&fit=fill&bg=FFF&q=25",
         "id": 10,
         "name": "Basic French Language Skills for Everyday Life",
         "duration": "7 hours",
         "rating": 4.4,
-        "price": "1400 BDT"
+        "price": "1400 BDT",
+        "description": "Learn the fundamentals of French with a dynamic, pleasant and efficient course. Native Experienced French teacher."
     }
 ]
