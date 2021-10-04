@@ -1,8 +1,13 @@
 import './Courses.css'
 import React from 'react';
 import { Card, CardGroup, Col, Row, Button } from 'react-bootstrap';
+import { useHistory } from 'react-router';
 
 const Courses = (props) => {
+    let history = useHistory();
+    const handleLearnMoreBtn = () => {
+        history.push('/services');
+    }
     const { id, name, duration, rating, price, description, img } = props.course;
     return (
         <div className="card-container mb-5">
@@ -17,7 +22,7 @@ const Courses = (props) => {
                     </Card.Text>
                 </Card.Body>
                 <Card.Footer>
-                    <Button>Learn More</Button>
+                    <Button onClick={handleLearnMoreBtn} >Learn More</Button>
                 </Card.Footer>
             </Card>
 

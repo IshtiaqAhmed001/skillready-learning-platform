@@ -1,0 +1,9 @@
+.footer-container{
+    background-color: rgb(32, 48, 119);
+    color:whitesmoke;
+}
+
+li{
+    text-align: start;
+    margin-bottom: 10px;
+}

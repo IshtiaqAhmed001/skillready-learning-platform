@@ -11,11 +11,10 @@ const NotFound = () => {
     // }
     return (
         <div className="notFound">
-            <div className="imageContainer mt-5">
+            <div className="imageContainer my-5">
                 <img src={image} alt="" />
                 <br />
                 <Link to='/home'> <Button variant="dark">Go back to Home</Button>{' '}</Link>
-
             </div>
         </div>
     );
