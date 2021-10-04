@@ -34,7 +34,7 @@ const Footer = () => {
                             <li>Recorded Videos</li>
                             <li>24/7 Support Sessions</li>
                             <li>Counselling</li>
-                            <li>Certificates</li>
+                            <li>Individual Tution Opportunity</li>
                         </ul>
                     </div>
 
@@ -42,6 +42,7 @@ const Footer = () => {
                         <h2>Company</h2>
                     </div>
                 </div>
+                <p>© 2021 SkillReady Inc. All rights reserved.</p>
             </div>
 
 

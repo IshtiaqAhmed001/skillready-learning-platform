@@ -1,0 +1,9 @@
+.thumbnail{
+    margin: auto;
+    width: 200px;
+}
+.learnMore-btn{
+    background-color: #5972FF;
+    border: none;
+    padding: 10px 20px;
+}

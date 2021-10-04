@@ -1,0 +1,29 @@
+.feature-grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 100px;
+}
+.more-features-grid{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.more-features-item{
+    background-color:#3C488D ;
+    padding:30px 50px;
+    color: whitesmoke;
+}
+.pro-icon{
+    background-color: #3C488D;
+    color:whitesmoke;
+    font-size: 1.2rem;
+    padding: 10px;
+    border-radius: 10px;
+}
+.premium-btn{
+    background-color: #5972FF;
+    border: none;
+    font-weight: bold;
+    padding: 10px 20px;
+}

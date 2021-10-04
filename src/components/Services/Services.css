@@ -1,0 +1,17 @@
+.course-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.course-container img{
+    width: 200px;
+    margin:auto;
+}
+.services-title{
+    margin-top: 20px;
+    color: #3c488d;
+}
+.horizontal-line{
+    width: 50%;
+    margin:auto;
+    color: #3c488d;
+}
