@@ -1,13 +1,18 @@
-import './Contact.css';
-
 import React from 'react';
 import { Form, Button } from 'react-bootstrap';
-import { Arrow90degDown, EnvelopeFill, House, PhoneFill } from 'react-bootstrap-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
+import './Contact.css';
+import { faPhone, faClock, faMailBulk, faMapMarker } from '@fortawesome/free-solid-svg-icons';
 
 
 
 
 const Contact = () => {
+    const phone = <FontAwesomeIcon icon={faPhone} />;
+    const email = <FontAwesomeIcon icon={faMailBulk} />;
+    const clock = <FontAwesomeIcon icon={faClock} />;
+    const location = <FontAwesomeIcon icon={faMapMarker} />;
     return (
         <div>
             <div>
@@ -29,43 +34,65 @@ const Contact = () => {
                             </div>
                         </Form>
                     </div>
-                    <div className="mx-auto">
-                        <div className="details-item">
-                            <div className="d-flex align-items-center">
-                                <House className="display-5 me-2"></House>
-                                <h3>Office</h3>
+                    <div className="side-menu p-2 mx-auto mb-5">
+                        <div className="menu-items mb-4">
+                            <div className="d-flex">
+                                <div>
+                                    <h3 className="me-2 icons">{location}</h3>
+                                </div>
+                                <div>
+                                    <h3>Office</h3>
+                                </div>
                             </div>
-                            <p className="fw-light ms-2">Baridhara,Dhaka,Bangladesh</p>
-                        </div>
-                        <div className="details-item">
-                            <div className="d-flex align-items-center">
-                                <House className="display-6 me-2"></House>
-                                <h3>Opening Hours</h3>
+                            <div className="text-start ms-5">
+                                <h6>Baridhara,Dhaka</h6>
+                                <h6>Bangladesh</h6>
                             </div>
-                            <p className="fw-light ms-2">Saturday-Thursyday</p>
-                            <p className="fw-light ms-2">9:00AM-10:00PM</p>
                         </div>
-                        <div className="details-item">
-                            <div className="d-flex align-items-center">
-                                <EnvelopeFill className="display-6 me-2"></EnvelopeFill>
-                                <h3>Email</h3>
+                        <div className="menu-items mb-4">
+                            <div className="d-flex">
+                                <div>
+                                    <h3 className="me-2 icons">{clock}</h3>
+                                </div>
+                                <div>
+                                    <h3>Opening Hours</h3>
+                                </div>
                             </div>
-                            <p className="fw-light ms-2">ishtiaq.wasi@gmail.com</p>
-                        </div>
-                        <div className="details-item">
-                            <div className="d-flex align-items-center">
-                                <PhoneFill className="display-5 me-2"></PhoneFill>
-                                <h3>Phone</h3>
+                            <div className="text-start ms-5">
+                                <h6>Sunday-Thursday</h6>
+                                <h6>9:00AM - 10:00PM</h6>
                             </div>
-                            <p className="fw-light ms-2">+880123456879</p>
                         </div>
-
-
-
+                        <div className="menu-items mb-4">
+                            <div className="d-flex">
+                                <div>
+                                    <h3 className="me-2 icons">{email}</h3>
+                                </div>
+                                <div>
+                                    <h3>Email</h3>
+                                </div>
+                            </div>
+                            <div className="text-start ms-5">
+                                <h6>ishtiaq.wasi@gmail.com</h6>
+                            </div>
+                        </div>
+                        <div className="menu-items mb-4">
+                            <div className="d-flex">
+                                <div>
+                                    <h3 className="me-2 icons">{phone}</h3>
+                                </div>
+                                <div>
+                                    <h3>Phone</h3>
+                                </div>
+                            </div>
+                            <div className="text-start ms-5">
+                                <h6>+8801234568</h6>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
 
+            </div>
         </div>
     );
 };
