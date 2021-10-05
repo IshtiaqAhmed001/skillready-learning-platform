@@ -1,14 +1,14 @@
 import React from 'react';
 import { Form, Button } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-
-import './Contact.css';
 import { faPhone, faClock, faMailBulk, faMapMarker } from '@fortawesome/free-solid-svg-icons';
+import './Contact.css';
 
 
 
 
 const Contact = () => {
+    // font awesome icons 
     const phone = <FontAwesomeIcon icon={faPhone} />;
     const email = <FontAwesomeIcon icon={faMailBulk} />;
     const clock = <FontAwesomeIcon icon={faClock} />;

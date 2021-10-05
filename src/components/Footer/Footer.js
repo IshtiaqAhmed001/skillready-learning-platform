@@ -1,8 +1,11 @@
 import React from 'react';
 import './Footer.css'
 import { NavLink } from 'react-router-dom';
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faFacebookSquare, faLinkedin, faTwitterSquare, faYoutube } from '@fortawesome/free-brands-svg-icons';
 const Footer = () => {
+
+    // button normal style 
     const normalStyle = {
         marginRight: "5px",
         padding: '5px',
@@ -10,8 +13,13 @@ const Footer = () => {
         color: 'whitesmoke',
         pointer: 'cursor',
         fontWeight: "600",
-
+        fontSize: "1.5em"
     };
+
+    const fbIcon = <FontAwesomeIcon icon={faFacebookSquare} />;
+    const linkedInIcon = <FontAwesomeIcon icon={faLinkedin} />;
+    const twitterIcon = <FontAwesomeIcon icon={faTwitterSquare} />;
+    const youtubeIcon = <FontAwesomeIcon icon={faYoutube} />;
     return (
         <div className="footer-container">
             <div className="mx-4">
@@ -22,9 +30,10 @@ const Footer = () => {
                         </p>
                         <p className="text-start"><span>Build your skills with our latest courses and</span> <br /> <span>degrees from top-ranked universities and instructors.</span></p>
                         <div className="text-start my-5">
-                            <NavLink style={normalStyle} to="/blabla">Facebook</NavLink>
-                            <NavLink style={normalStyle} to="/blabla">Youtube</NavLink>
-                            <NavLink style={normalStyle} to="/blabla">Instagram</NavLink>
+                            <NavLink style={normalStyle} to="/blabla">{fbIcon}</NavLink>
+                            <NavLink style={normalStyle} to="/blabla">{linkedInIcon}</NavLink>
+                            <NavLink style={normalStyle} to="/blabla">{twitterIcon}</NavLink>
+                            <NavLink style={normalStyle} to="/blabla">{youtubeIcon}</NavLink>
                         </div>
                     </div>
                     <div className="mt-4">
